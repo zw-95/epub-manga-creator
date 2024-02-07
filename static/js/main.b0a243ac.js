@@ -19527,7 +19527,7 @@
             enumerable: !0,
             writable: !0,
             initializer: function () {
-              return "right";
+              return "left";
             },
           })),
           (Ai = gi(_i.prototype, "coverPosition", [Me], {
@@ -19543,7 +19543,7 @@
             enumerable: !0,
             writable: !0,
             initializer: function () {
-              return "svg";
+              return "img";
             },
           })),
           (Ti = gi(_i.prototype, "pages", [Me], {
@@ -19831,7 +19831,7 @@
               enumerable: !0,
               writable: !0,
               initializer: function () {
-                return [{ pageIndex: 0, title: "\u8868\u7d19" }];
+                return [];
               },
             }
           )),
@@ -21620,7 +21620,7 @@
                       children: [
                         (0, i.jsx)("h5", {
                           className: "modal-title",
-                          children: "Content",
+                          children: "目录",
                         }),
                         (0, i.jsx)("button", {
                           type: "button",
@@ -21653,13 +21653,13 @@
                                   (0, i.jsx)("div", {
                                     className: "col-2",
                                     children: (0, i.jsx)("h6", {
-                                      children: "index",
+                                      children: "页码",
                                     }),
                                   }),
                                   (0, i.jsx)("div", {
                                     className: "col-6",
                                     children: (0, i.jsx)("h6", {
-                                      children: "title",
+                                      children: "标题",
                                     }),
                                   }),
                                   (0, i.jsx)("div", {
@@ -21899,7 +21899,7 @@
                 [n]
               );
             return (0,
-            i.jsx)("div", { className: "modal-dialog modal-md", onClick: r, children: (0, i.jsxs)("div", { className: "modal-content", children: [(0, i.jsxs)("div", { className: "modal-header", children: [(0, i.jsx)("h5", { className: "modal-title", children: "Page" }), (0, i.jsx)("button", { type: "button", className: "btn-close", "data-bs-dismiss": "modal", "aria-label": "Close", onClick: o })] }), (0, i.jsxs)("div", { className: "modal-body", children: [(0, i.jsxs)("div", { className: "mb-2 row", children: [(0, i.jsx)("label", { className: "col-3 col-form-label text-end", children: "size" }), (0, i.jsx)("div", { className: "col-9 d-flex align-items-center", children: (0, i.jsxs)("div", { className: "row justify-content-between", children: [(0, i.jsx)("div", { className: "col-5 d-flex align-items-center", children: (0, i.jsxs)("div", { className: "input-group input-group-sm", children: [(0, i.jsx)("span", { className: "input-group-text", children: "w" }), (0, i.jsx)("input", { type: "number", className: "form-control", min: "1", max: "9999", value: n.pageSize[0], onInput: s })] }) }), (0, i.jsx)("div", { className: "col-2 d-flex justify-content-center", children: (0, i.jsx)("button", { type: "button", className: "btn btn-sm btn-secondary d-flex justify-content-center align-items-center", onClick: u, children: (0, i.jsx)(a, { name: "cycle" }) }) }), (0, i.jsx)("div", { className: "col-5 d-flex align-items-center", children: (0, i.jsxs)("div", { className: "input-group input-group-sm", children: [(0, i.jsx)("span", { className: "input-group-text", children: "h" }), (0, i.jsx)("input", { type: "number", className: "form-control", min: "1", max: "9999", value: n.pageSize[1], onInput: l })] }) })] }) })] }), (0, i.jsxs)("div", { className: "mb-2 row", children: [(0, i.jsx)("div", { className: "col-3" }), (0, i.jsxs)("div", { className: "col-9 d-flex align-items-center", children: [(0, i.jsx)(Da, { current: "x", value: "B4", label: "B4", onClick: c }), (0, i.jsx)(Da, { current: "x", value: "B5", label: "B5", onClick: c }), (0, i.jsx)(Da, { current: "x", value: "A4", label: "A4", onClick: c }), (0, i.jsx)(Da, { current: "x", value: "A5", label: "A5", onClick: c }), (0, i.jsx)(Da, { current: "x", value: "CG 16:9", label: "CG 16:9", onClick: c }), (0, i.jsx)(Da, { current: "x", value: "CG 16:10", label: "CG 16:10", onClick: c })] })] }), (0, i.jsxs)("div", { className: "mb-2 row", children: [(0, i.jsx)("label", { htmlFor: "input-page-position", className: "col-3 col-form-label text-end", children: "position" }), (0, i.jsxs)("div", { className: "col-9 d-flex align-items-center", children: [(0, i.jsx)(Da, { current: n.pagePosition, value: "center", label: "center", onClick: d }), (0, i.jsx)(Da, { current: n.pagePosition, value: "between", label: "between", onClick: d })] })] }), (0, i.jsxs)("div", { className: "mb-2 row", children: [(0, i.jsx)("label", { className: "col-3 col-form-label text-end", children: "show" }), (0, i.jsxs)("div", { className: "col-9 d-flex align-items-center", children: [(0, i.jsx)(Da, { current: n.pageShow, value: "two", label: "two pages", onClick: f }), (0, i.jsx)(Da, { current: n.pageShow, value: "one", label: "one page", onClick: f })] })] }), (0, i.jsxs)("div", { className: "mb-2 row", children: [(0, i.jsx)("label", { className: "col-3 col-form-label text-end", children: "fit" }), (0, i.jsxs)("div", { className: "col-9 d-flex align-items-center", children: [(0, i.jsx)(Da, { current: n.pageFit, value: "stretch", label: "stretch", onClick: h }), (0, i.jsx)(Da, { current: n.pageFit, value: "fit", label: "fit", onClick: h }), (0, i.jsx)(Da, { current: n.pageFit, value: "fill", label: "fill", onClick: h })] })] }), (0, i.jsxs)("div", { className: "mb-2 row", children: [(0, i.jsx)("label", { className: "col-3 col-form-label text-end", children: "direction" }), (0, i.jsxs)("div", { className: "col-9 d-flex align-items-center", children: [(0, i.jsx)(Da, { current: n.pageDirection, value: "right", label: "right (japanese style)", onClick: p }), (0, i.jsx)(Da, { current: n.pageDirection, value: "left", label: "left", onClick: p })] })] }), (0, i.jsxs)("div", { className: "mb-2 row", children: [(0, i.jsx)("label", { className: "col-3 col-form-label text-end", children: "cover" }), (0, i.jsxs)("div", { className: "col-9 d-flex align-items-center", children: [(0, i.jsx)(Da, { current: n.coverPosition, value: "first-page", label: "first page", onClick: m }), (0, i.jsx)(Da, { current: n.coverPosition, value: "alone", label: "alone", onClick: m })] })] }), (0, i.jsxs)("div", { className: "mb-2 row", children: [(0, i.jsx)("label", { className: "col-3 col-form-label text-end", children: "image tag" }), (0, i.jsxs)("div", { className: "col-9 d-flex align-items-center", children: [(0, i.jsx)(Da, { current: n.imgTag, value: "svg", label: "<svg />", onClick: v }), (0, i.jsx)(Da, { current: n.imgTag, value: "img", label: "<img />", onClick: v })] })] })] })] }) });
+            i.jsx)("div", { className: "modal-dialog modal-md", onClick: r, children: (0, i.jsxs)("div", { className: "modal-content", children: [(0, i.jsxs)("div", { className: "modal-header", children: [(0, i.jsx)("h5", { className: "modal-title", children: "页面" }), (0, i.jsx)("button", { type: "button", className: "btn-close", "data-bs-dismiss": "modal", "aria-label": "Close", onClick: o })] }), (0, i.jsxs)("div", { className: "modal-body", children: [(0, i.jsxs)("div", { className: "mb-2 row", children: [(0, i.jsx)("label", { className: "col-3 col-form-label text-end", children: "大小" }), (0, i.jsx)("div", { className: "col-9 d-flex align-items-center", children: (0, i.jsxs)("div", { className: "row justify-content-between", children: [(0, i.jsx)("div", { className: "col-5 d-flex align-items-center", children: (0, i.jsxs)("div", { className: "input-group input-group-sm", children: [(0, i.jsx)("span", { className: "input-group-text", children: "宽" }), (0, i.jsx)("input", { type: "number", className: "form-control", min: "1", max: "9999", value: n.pageSize[0], onInput: s })] }) }), (0, i.jsx)("div", { className: "col-2 d-flex justify-content-center", children: (0, i.jsx)("button", { type: "button", className: "btn btn-sm btn-secondary d-flex justify-content-center align-items-center", onClick: u, children: (0, i.jsx)(a, { name: "cycle" }) }) }), (0, i.jsx)("div", { className: "col-5 d-flex align-items-center", children: (0, i.jsxs)("div", { className: "input-group input-group-sm", children: [(0, i.jsx)("span", { className: "input-group-text", children: "高" }), (0, i.jsx)("input", { type: "number", className: "form-control", min: "1", max: "9999", value: n.pageSize[1], onInput: l })] }) })] }) })] }), (0, i.jsxs)("div", { className: "mb-2 row", children: [(0, i.jsx)("div", { className: "col-3" }), (0, i.jsxs)("div", { className: "col-9 d-flex align-items-center", children: [(0, i.jsx)(Da, { current: "x", value: "B4", label: "B4", onClick: c }), (0, i.jsx)(Da, { current: "x", value: "B5", label: "B5", onClick: c }), (0, i.jsx)(Da, { current: "x", value: "A4", label: "A4", onClick: c }), (0, i.jsx)(Da, { current: "x", value: "A5", label: "A5", onClick: c }), (0, i.jsx)(Da, { current: "x", value: "CG 16:9", label: "CG 16:9", onClick: c }), (0, i.jsx)(Da, { current: "x", value: "CG 16:10", label: "CG 16:10", onClick: c })] })] }), (0, i.jsxs)("div", { className: "mb-2 row", children: [(0, i.jsx)("label", { htmlFor: "input-page-position", className: "col-3 col-form-label text-end", children: "位置" }), (0, i.jsxs)("div", { className: "col-9 d-flex align-items-center", children: [(0, i.jsx)(Da, { current: n.pagePosition, value: "center", label: "中心", onClick: d }), (0, i.jsx)(Da, { current: n.pagePosition, value: "between", label: "两边", onClick: d })] })] }), (0, i.jsxs)("div", { className: "mb-2 row", children: [(0, i.jsx)("label", { className: "col-3 col-form-label text-end", children: "显示" }), (0, i.jsxs)("div", { className: "col-9 d-flex align-items-center", children: [(0, i.jsx)(Da, { current: n.pageShow, value: "two", label: "两页", onClick: f }), (0, i.jsx)(Da, { current: n.pageShow, value: "one", label: "一页", onClick: f })] })] }), (0, i.jsxs)("div", { className: "mb-2 row", children: [(0, i.jsx)("label", { className: "col-3 col-form-label text-end", children: "填充" }), (0, i.jsxs)("div", { className: "col-9 d-flex align-items-center", children: [(0, i.jsx)(Da, { current: n.pageFit, value: "stretch", label: "拉伸", onClick: h }), (0, i.jsx)(Da, { current: n.pageFit, value: "fit", label: "适合", onClick: h }), (0, i.jsx)(Da, { current: n.pageFit, value: "fill", label: "填充", onClick: h })] })] }), (0, i.jsxs)("div", { className: "mb-2 row", children: [(0, i.jsx)("label", { className: "col-3 col-form-label text-end", children: "方向" }), (0, i.jsxs)("div", { className: "col-9 d-flex align-items-center", children: [(0, i.jsx)(Da, { current: n.pageDirection, value: "right", label: "右 (日语样式)", onClick: p }), (0, i.jsx)(Da, { current: n.pageDirection, value: "left", label: "左", onClick: p })] })] }), (0, i.jsxs)("div", { className: "mb-2 row", children: [(0, i.jsx)("label", { className: "col-3 col-form-label text-end", children: "封面" }), (0, i.jsxs)("div", { className: "col-9 d-flex align-items-center", children: [(0, i.jsx)(Da, { current: n.coverPosition, value: "first-page", label: "第一页", onClick: m }), (0, i.jsx)(Da, { current: n.coverPosition, value: "alone", label: "单独", onClick: m })] })] }), (0, i.jsxs)("div", { className: "mb-2 row", children: [(0, i.jsx)("label", { className: "col-3 col-form-label text-end", children: "图像标签" }), (0, i.jsxs)("div", { className: "col-9 d-flex align-items-center", children: [(0, i.jsx)(Da, { current: n.imgTag, value: "svg", label: "<svg />", onClick: v }), (0, i.jsx)(Da, { current: n.imgTag, value: "img", label: "<img />", onClick: v })] })] })] })] }) });
           }),
           Ma = vi(function () {
             const t = e.useContext(e.createContext(ba.ui));
